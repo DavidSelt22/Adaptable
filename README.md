@@ -1,0 +1,2 @@
+# Adaptable
+NO se adapta
