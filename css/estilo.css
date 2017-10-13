@@ -1,0 +1,134 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.ppal{
+
+  width: 100%;
+  height: 90vh; 
+  background-image: url("../img/fondo.jpeg");
+  background-position-y:18%;
+  background-size:cover;
+  background-repeat: no-repeat;
+  border:2px solid #333;    
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: space-between;    
+     
+}
+.transp{
+  width: 60%;
+  height: 20vh;
+  border:2px solid #333;      
+}
+
+.conten{
+  width: 35%;
+  border: 2px solid blue;
+  background-image: url("../img/fdientes.png");
+  background-position:center;
+  background-size:cover;
+  background-repeat: no-repeat;    
+}
+.logo{
+  width: 100%;
+  height:240px;
+  margin-top: 30px;    
+  border: 2px solid red;    
+}
+.logui{
+  width:215px;
+  height: 230px;
+  background-image: url("../img/logo.png");
+  background-position: center;
+  background-size:cover;
+  background-repeat: no-repeat;
+  margin: auto;
+      
+}
+.elem{
+  width: 80%;
+  border: 2px solid red;
+  float: right;    
+}
+
+.elem h1{
+  padding:8px;
+  background:#09371a;
+  color:#ffaa19;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;    
+}
+
+.d{
+  width: 100%;
+  border:2px solid #222;
+  display: flex;
+  flex-wrap: wrap;
+  background:#09371a;
+  margin:5px 0px 5px 0px;    
+} 
+.punto{
+  width: 8px;
+  height:8px;
+  background-image: url("../img/punto.png");
+  background-position: center;
+  background-size:cover;
+  background-repeat:no-repeat;
+  margin:11px 2px 5px 5px    
+      
+}
+
+.d p{
+  color:#fff;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  padding: 5px 0px 5px 5px;    
+}
+
+.a{
+  width:100%;
+  background:#fcb01c;
+  padding:8px;  
+  transition:all .7s;    
+}
+
+.elem a{    
+  color:#09371a;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  text-decoration: none;
+  font-weight: 600;
+  transition:all .7s;    
+}
+
+.a:hover{
+  background:#09371a;   
+}
+.elem a:hover{
+  color:#fcb01c;    
+}
+
+
+@media(max-width:1024px){
+  .d p{ font-size: 11px;}
+  .conten{width: 37%;}
+  .ppal{  height: auto;}
+  .elem{margin-bottom:45px;}    
+}
+
+@media (max-width: 360px){
+  .transp{width: 10%;background: red;}
+}
+
+
+
+
+
+
+
+
+
+
